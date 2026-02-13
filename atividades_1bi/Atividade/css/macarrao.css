@@ -1,0 +1,122 @@
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+      }
+
+      .topo {
+        width: 100%;
+        height: 300px;
+        padding: 30px;
+        background-color: #ff8c00;
+        text-align: center;
+        position: relative;
+        border-radius: 0 0 20px 20px;
+        overflow: visible;
+        margin-bottom: 350px;
+      }
+
+      .topo .titulo {
+        color: #fff;
+        z-index: 2;
+        position: relative;
+        text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+      }
+
+      .imagem-fundo {
+        width: 98%;
+        height: 500px;
+        padding: 50px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        object-fit: cover;
+        filter: blur(50%);
+        border-radius: 0 0 20px 20px;
+      }
+
+      .video {
+        width: 800px;
+        height: 450px;
+        border-radius: 20px;
+        position: absolute;
+        bottom: -300px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 2;
+        border: none;
+      }
+
+      /* === SEÇÕES === */
+      .secao {
+        max-width: 900px;
+        margin: 40px auto;
+        padding: 40px 50px;
+        display: flex;
+        align-items: flex-start;
+        gap: 40px;
+      }
+
+      .secao + .secao {
+        border-top: 1px solid #ddd;
+        padding-top: 30px;
+      }
+
+      .secao h2 {
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+        min-width: 200px;
+      }
+
+      .secao ul {
+        padding: 0 0 0 20px;
+        color: #555;
+        line-height: 2;
+        font-size: 16px;
+      }
+
+      .secao ol {
+        padding: 0 0 0 20px;
+        color: #555;
+        line-height: 1.8;
+        font-size: 16px;
+      }
+
+      .secao ol li {
+        margin-bottom: 18px;
+      }
+
+      .destaque {
+        color: #e74c3c;
+        font-weight: bold;
+      }
+
+      .rodape {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 30px 20px;
+        font-size: 14px;
+        margin-top: 40px;
+      }
+
+      .rodape p {
+        margin-bottom: 8px;
+      }
+
+      .rodape a {
+        color: #ff8c00;
+        text-decoration: none;
+      }
+
+      .rodape a:hover {
+        text-decoration: underline;
+        }
