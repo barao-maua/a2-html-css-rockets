@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    gap: 50px;
+    width: 90%;
+    margin: 0 auto;
+}
+.box {
+    flex: 1;
+    background-color: #eea704ad;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+}
+.container_miojo_img {
+    display: flex;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    align-items: center;
+}
+.img_miojo {
+    margin: 0 auto;
+    max-width: 50%;
+}
+.espacamento {
+    margin-top: 150px;
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
